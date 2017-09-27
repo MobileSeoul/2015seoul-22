@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#211e0b</color>
+    <color name="ColorPrimaryDark">#211e0b</color>
+    <color name="ColorAccent">#c91140</color>
+    <color name="tabsScrollColor">#c91140</color>
+    <color name="routeTabBarColor">#39393a</color>
+
+    <color name="UploadMarketInfoBar">#39393a</color>
+    <color name="UploadSelectBar">#dadada</color>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-f9acfbe3b41d4b12779b05800463e53f9a21ccd1.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-27dce9d2c74e094a7d1cea83fac0742fbeb0ee6a.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-2838cafd0d8c0120a32aebd9bb4ff992427e2e1b.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-18e3f415d590605b3acb63c05d93c6581937bca1.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-59d731ccc025cb21f7decd02b2a136c7e019b358.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-1f6433a10b2484a8e4f92fde967701deb69f0314.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-51da88afa2a536f95ce67ea3edb6d6a5c5854b8b.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-3cbd186a1e996ea620c5b451c3441fdd0d4cc439.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-f9a7d170cd5310abbbb26b5b0753841064b187cd.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-9286451de506d8e011cad649b2be23acf4c5db40.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-f167bf7b36bc30ea2633b6cf1b63561739ad96e3.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-fc8432564fec189a40ec3b97155458af5cb3c698.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-f81339032728182764fdd4156b45a66a9bb67b13.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-6ef6685d8c3822f47abfd7716eda19fddd6a1d75.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-36803f6bfe6dba93d300bbf0c5bb9e8563cac0e8.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-c681e98e1f32be91536cccdddc2bb7697d97d7fa.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-64bc3b45f735929679a56fde27e4ad9b40cddc52.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-74082a4e8d60831a13c5092784a69361bf05b695.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-5878b349215c000b84d3ab3ae9fe0a5ac3fbcd1c.jar" />
+    </item>
+    <item
+        jar="C:\Users\yk\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-4c3e11d5aab782f685592741fad853151f769070.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-3b510a320012837dabfa8e401b39b906e9c9afab.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-34f54e7ee945790ccca7d16e1a6fa52519a23caf.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-0e88568a8f549f6f4b8ab16babd068df0285dc0b.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-b86ec33c654c9380cb8bff92711305517f7eb674.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-4222e4903945f845f6f169fd054a4fb75a67d7cc.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-4e637878e34cb27bab4d6e4f2eaef5579a68e581.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-d8fb8e16185c49b19742fbb5b76e1363d1101a1b.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-ecb3c913adf727860258e3412b4906bdcff8bb3b.jar" />
+    </item>
+    <item
+        jar="C:\MyRoad\GeneBe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="C:\MyRoad\GeneBe\app\build\intermediates\pre-dexed\debug\classes-736aaafca1f14f0f872df0b31e4b06799c6a6e2e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/card_rounded"
+    android:id="@+id/dialog_board_add_fragment">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="보드이름"
+        android:background="#dedede"
+        android:layout_margin="10dp"
+        android:id="@+id/dialog_board_add_text"/>
+
+    <View android:layout_height="2px" android:layout_width="fill_parent" android:background="#dedede"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="새로운 보드 만들기"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:id="@+id/dialog_board_add_button"/>
+</LinearLayout>

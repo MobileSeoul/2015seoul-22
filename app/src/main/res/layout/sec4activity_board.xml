@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--툴바 탑제-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/board_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="홍대 맛집"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/abc_text_size_title_material_toolbar"
+            android:layout_gravity="center"
+            android:id="@+id/board_toolbar_title"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:background="@android:color/white"
+        android:id="@+id/sec4_board_group_user_info">
+        <TextView
+            android:id="@+id/sec4_board_group_upload_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mypage_upload"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:singleLine="false"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sec4_board_group_followers_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mypage_follower"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sec4_board_group_followings_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mypage_following"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/sec4frame"
+        android:orientation="vertical"
+        class="com.example.genebe.Sec1.Sec1NewsFeedFollowers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dadada">
+    </fragment>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/addgalleryimgbtn_frag0"
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:scaleType="fitXY"
+        android:src="@drawable/upload_camera"
+        />
+
+    <EditText
+        android:id="@+id/upload_add_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="230px"
+        android:background="#ffffff"
+        android:hint="설명해주세요"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/addgalleryimgbtn_frag0"/>
+
+    <ImageButton
+        android:id="@+id/removerowbutton_frag0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/upload_add_edittext"
+        android:layout_alignRight="@+id/upload_add_edittext"
+        android:src="@drawable/upload_add_remove"
+        />
+
+</RelativeLayout>

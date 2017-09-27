@@ -1,0 +1,13 @@
+<!--우측 상단 메뉴 레이아웃(검색, 업로드 버든)-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Sec4.BoardActivity">
+
+    <item android:id="@+id/board_action_add"
+        android:icon="@drawable/amend"
+        android:title="@string/action_add"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+</menu>

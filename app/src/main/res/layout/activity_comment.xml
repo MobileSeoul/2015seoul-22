@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.genebe.comment.CommentActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/comment_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <!--
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="댓글을 달아주세요."
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:text="확인"
+            android:textColor="#ffffff"
+            android:background="#39393A"/>
+    </RelativeLayout>
+    -->
+
+</LinearLayout>

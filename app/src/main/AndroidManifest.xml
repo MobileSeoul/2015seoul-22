@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.genebe" >
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/genebe_app_name"
+        android:theme="@style/GenebeAppTheme" >
+        <activity
+            android:name=".main.SplashActivity"
+            android:label="@string/title_activity_splash" >
+
+        </activity>
+        <activity
+            android:name=".main.login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".main.SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/genebe_app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sec4.BoardActivity"
+            android:label="@string/genebe_app_name"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Sec4.BoardActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCmvOwP-cK0GkBGYX6K0CeruJteOTC1aqw" />
+
+        <activity
+            android:name=".card.CardDetailActivity"
+            android:label="@string/title_activity_card_detail"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.genebe.MainActivity" />
+        </activity>
+        <activity android:name=".store.StoreInfoActivity" />
+        <activity android:name=".search.SearchActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.search" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".upload.UploadActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.upload" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".upload.UploadSearchActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.upload.UploadSearchActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".upload.UploadDrawRouteActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.upload.UploadDrawRoute" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".upload.UploadSummaryActivity"
+            android:label="@string/title_activity_upload_summary" >
+        </activity>
+        <activity
+            android:name=".comment.CommentActivity"
+            android:label="@string/title_activity_comment" >
+        </activity>
+
+    </application>
+
+</manifest>

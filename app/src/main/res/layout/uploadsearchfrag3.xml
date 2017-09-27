@@ -1,0 +1,135 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/UploadMarketInfoBar"
+            android:layout_gravity="top">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/search_store_info_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:text="제목"
+                    android:textSize="60px"
+                    android:textStyle="bold"
+                    android:padding="5dp"/>
+                <TextView
+                    android:id="@+id/search_store_info_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:text="주소"
+                    android:textSize="50px"
+                    android:padding="5dp"/>
+                <TextView
+                    android:id="@+id/search_store_info_tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:text="전화번호"
+                    android:textSize="50px"
+                    android:padding="5dp"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/upload_rebrowsing"
+                android:layout_gravity="center_vertical"
+                android:background="@color/UploadMarketInfoBar"
+                android:id="@+id/researchbutton"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/upload_background"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/item_bel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="어땠나요?"
+                android:layout_margin="10dp"
+                android:textSize="50px" >
+            </TextView>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <ToggleButton
+                    android:id="@+id/upload_search_store_like_frag3"
+                    android:layout_width="51dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/emoticon_toggle_1_btn"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_margin="10dp"/>
+                <ToggleButton
+                    android:id="@+id/upload_search_store_soso_frag3"
+                    android:layout_width="51dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/emoticon_toggle_2_btn"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_margin="10dp"/>
+                <ToggleButton
+                    android:id="@+id/upload_search_store_hate_frag3"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/emoticon_toggle_3_btn"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_margin="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/upload_search_store_review_frag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="설명해주세요"
+                android:layout_margin="5dp"
+                android:textSize="50px"
+                android:focusable="true">
+            </EditText>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
